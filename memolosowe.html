@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--- style -->
+  <link rel="stylesheet" href="/styles-folder/memo.css">
+  <link rel="stylesheet" href="/styles-folder/wojna11.css">
+   <link rel="stylesheet" href="/styles-folder/waski1.css"> 
+  <link rel="stylesheet" href="/styles-folder/wojna-hinted.css">
+  <link rel="stylesheet" href="/styles-folder/memolosowe.css">
+  <link rel="stylesheet" href="/styles-folder/images.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/lang-btn.css">
+
+  <title>Wojna demonów</title>
+</head>
+<body class="memo">
+  <audio autoplay loop>
+    <source src="../war-music/construction-cinematic-orchestra-173525.mp3">
+  </audio>
+
+  <div class="game-title-memo">Starcie Mitycznych Słowiańskich Postaci  - Memory</div>
+
+  <div class="cart-setting" id="cart-setting">Losuj karty</div>
+
+  <div class="answer-container" id="answer"></div>
+
+  <div class="cart-group-container-memory-invisible" id="cart-group-container">
+
+    <div class="grid" id="grid-01">
+      <div class="memo-cart" id="cart-1">
+        <div class="memo-img" id="image-n-1"></div>
+        <div class="memo-opis" id="title-1"></div>
+        <div class="plachta" id="plachta-1"></div>
+      </div> 
+    </div>
+
+    <div class="grid" id="grid-02">
+      <div class="memo-cart" id="cart-2">
+        <div class="memo-img" id="image-n-2" ></div>
+        <div class="memo-opis" id="title-2" ></div>
+        <div class="plachta" id="plachta-2"></div>
+      </div> 
+    </div>
+
+    <div class="grid" id="grid-03">
+      <div class="memo-cart" id="cart-3">
+        <div class="memo-img" id="image-n-3"></div>
+        <div class="memo-opis" id="title-3"></div>
+        <div class="plachta" id="plachta-3"></div>
+      </div> 
+    </div>
+
+    <div class="grid" id="grid-04">
+      <div class="memo-cart" id="cart-4">
+        <div class="memo-img" id="image-n-4"></div>
+        <div class="memo-opis" id="title-4"></div>
+        <div class="plachta" id="plachta-4"></div>
+      </div> 
+    </div>
+
+    <div class="grid" id="grid-05">
+      <div class="memo-cart" id="cart-5">
+        <div class="memo-img" id="image-n-5"></div>
+        <div class="memo-opis" id="title-5"></div>
+        <div class="plachta" id="plachta-5"></div>
+      </div> 
+    </div>
+
+    <div class="grid" id="grid-06">
+      <div class="memo-cart" id="cart-6">
+        <div class="memo-img" id="image-n-6"></div>
+        <div class="memo-opis" id="title-6"></div>
+        <div class="plachta" id="plachta-6"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-07">
+      <div class="memo-cart" id="cart-7">
+        <div class="memo-img" id="image-n-7"></div>
+        <div class="memo-opis" id="title-7"></div>
+        <div class="plachta" id="plachta-7"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-08">
+      <div class="memo-cart" id="cart-8">
+        <div class="memo-img " id="image-n-8"></div>
+        <div class="memo-opis" id="title-8"></div>
+        <div class="plachta" id="plachta-8"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-09">
+      <div class="memo-cart" id="cart-9">
+        <div class="memo-img" id="image-n-9"></div>
+        <div class="memo-opis" id="title-9"></div>
+        <div class="plachta" id="plachta-9"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-10">
+      <div class="memo-cart" id="cart-10">
+        <div class="memo-img" id="image-n-10"></div>
+        <div class="memo-opis" id="title-10"></div>
+        <div class="plachta" id="plachta-10"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-11">
+      <div class="memo-cart" id="cart-11">
+        <div class="memo-img" id="image-n-11"></div>
+        <div class="memo-opis" id="title-11"></div>
+        <div class="plachta" id="plachta-11"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-12">
+      <div class="memo-cart" id="cart-12">
+        <div class="memo-img" id="image-n-12"></div>
+        <div class="memo-opis" id="title-12" ></div>
+        <div class="plachta" id="plachta-12"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-13">
+      <div class="memo-cart" id="cart-13">
+        <div class="memo-img" id="image-n-13"></div>
+        <div class="memo-opis" id="title-13"></div>
+        <div class="plachta" id="plachta-13"></div>
+      </div> 
+    </div>
+    
+    <div class="grid" id="grid-14">
+      <div class="memo-cart" id="cart-14">
+        <div class="memo-img" id="image-n-14"></div>
+        <div class="memo-opis" id="title-14"></div>
+        <div class="plachta" id="plachta-14"></div>
+      </div> 
+    </div>
+  </div>
+
+  <div class="answers-container" id="memory-answer-container">
+    
+    <div class="second-container">
+      <div class="memo-answer" id="memo-points"></div>
+    </div>
+  
+    <div class="finalScore">
+      <div class="invisible" id="memory-points">Sprawdź wynik</div>
+      <div class="totalScore"></div>
+    </div>
+
+    <div class="new-opportunity-hidden" id="opportunity-memory">
+      Przejdź do kolejnego etapu
+      <a class="nextRound" href="/1starcie/waski1.html">
+        <span>Etap 2</span> 
+       </a>
+    </div>
+  
+    <div class="invisible" id="restart-memory-game">Graj od nowa</div>
+  </div>
+
+  <div class="feedback-container">
+    <div class="picked-cart"></div>
+    
+    <div class="answer-feedback-subcontainer">
+      <div class="info-back"></div>
+      <button class="info-back-btn">OK</button>
+    </div>
+    
+    <div class="generated-cart"></div>
+  </div>
+
+  <div class="language-choosing">
+    <a href=".//memolosowe.html" class="language-btn">Język polski</a>
+    <a href="./memoang.html" class="language-slider">English language</a>
+  </div>
+
+  <div class="monsterList"></div>
+  <div class="monster-mash" id="vision"></div>
+  <script src="/scripts/memolosowe.js"></script>
+
+</body>
+</html>

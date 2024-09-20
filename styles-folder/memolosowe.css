@@ -1,0 +1,199 @@
+.memo{
+  background-image: url('/background/14.jpg');/* 3,8, 14  */
+  background-image: url('/background/14.jpg');/* 3,8, 14  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-title-memo{
+  width: 100%;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .1em;
+  margin: .3em 0;
+  font-weight: bold;
+  text-shadow: 0 0 20px black;
+}
+
+.cart-group-container-memory-invisible{
+  width: 100%;
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: none;
+}
+
+.cart-group-container-memory{
+  width: 100%;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.invisible{
+  display: none;
+}
+
+.cart-group-container-memory-rewerse{
+  width: 100%;
+  margin: 1em auto;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.grid{
+  width: 10%;
+  min-width: 250px;
+  max-width: 350px;
+  height: 360px;
+  margin: 1em 0;
+}
+
+@media (min-width: 2500px){
+  .grid{
+    width: 5%;
+    max-width: 300px;
+    height: 360px;
+    margin: 1em 0;
+  }
+}
+
+.plachta{
+width: 100%;
+height: 102%;
+position: relative;
+top:-102%;
+z-index: 100;
+margin: .7em 0;
+border-radius: 20px;
+background-color: black;
+background-image: url('/img/ghost11.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+transition: .5s ease-in-out;
+}
+
+.plachta:active{
+  z-index: 0;
+}
+
+.cart-setting:hover{
+  text-shadow: 1px 1px 2px #fff, 0 0 25px #fff, 0 0 5px #fff;
+  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+}
+
+.memo-cart{
+  width: 90%;
+  height: 360px;
+  border: 1px solid white;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin: 1em 1.2em;
+  box-shadow: 5px 5px 10px black, 0 0 50px rgb(253, 251, 251), 0 0 5px #fff;
+}
+
+.memo-cart-lighten{
+  width: 100%;
+  height: 360px;
+  border: 1px solid white;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin: 1em 1.2em;
+  box-shadow: 20px 20px 50px rgb(253, 253, 253), 0 0 100px rgb(253, 251, 251), 0 0 5px #fff;
+}
+
+.memo-cart:hover{
+  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  .plachta{
+    display: none;
+  }
+}
+
+.memo-img{
+  width: 100%;
+  height: 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 20px ;
+  border-top-left-radius: 20px;
+  margin: -2px 0 0 0;
+}
+
+.memo-opis{
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: .2em 0 0 0 ;
+  letter-spacing: 0.1em;
+}
+
+.image-15-a{
+  background-image: url('./img/polnocnica1.jpg');
+  background-image: url('/img-1/midnight-lady-ghost.jpg');
+}
+
+.displayed-none{
+  display: none;
+}
+
+.added{
+ display: block;
+}
+
+.new-opportunity{
+  display: flex;
+  margin: 1em auto;
+  width: 45%;
+  justify-content: space-evenly;
+  align-items: center;;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: .05em;
+}
+
+.new-opportunity-hidden{
+  display: none
+}
+
+.newSet{
+  font-size: .7em;
+  padding: .1em .3em;
+  border: none; 
+  border-radius: 4px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.newSet:hover{
+  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+}
+
+.memo-answer{
+  color: #fff;
+  font-size: 7em;
+  font-weight: bold;
+  max-width: 1200px;
+  text-align: center;
+  letter-spacing: .05em;
+  margin: .3em auto;
+  text-shadow: 2px 2px 2px black;
+}
+
+.answer-memory{
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: .05em;
+}
