@@ -80,7 +80,7 @@
   
   .image-27{
     background-image: url('/img-1/czart3.png'); /*bies */
-    background-image: url('./memo-images/czart3.png'); 
+    background-image: url('../memo-images/czart3.png'); 
   }
   
   .image-28{
