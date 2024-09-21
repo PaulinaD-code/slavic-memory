@@ -1,5 +1,5 @@
 .memo{
-  background-image: url('./background/14.jpg');/* 3,8, 14  */
+  background-image: url('../background/14.jpg');/* 3,8, 14  */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,7 +52,7 @@ z-index: 100;
 margin: .7em 0;
 border-radius: 20px;
 background-color: black;
-background-image: url('./img/ghost11.png');
+background-image: url('../img/ghost11.png');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -113,7 +113,7 @@ transition: .5s ease-in-out;
 }
 
 .image-15-a{
-  background-image: url('./img/polnocnica1.jpg');
+  background-image: url('../img/polnocnica1.jpg');
 }
 
 .displayed-none{
