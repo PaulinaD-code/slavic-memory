@@ -1,5 +1,5 @@
 .memo{
-  background-image: url('/background/14.jpg');/* 3,8, 14  */
+  background-image: url('../background/14.jpg');/* 3,8, 14  */
   background-repeat: no-repeat;
   background-size: cover;
 }
