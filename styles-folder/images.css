@@ -1,81 +1,81 @@
 .image-11{
     background-image: url('/img-1/czart.jpg'); /* kuro */
-    background-image: url('./memo-images/czart.jpg'); 
+    background-image: url('../memo-images/czart.jpg'); 
   }
   
   .image-12{
     background-image: url('/img-1/midnight-lady-ghost.jpg');
-    background-image: url('./memo-images/midnight-lady-ghost.jpg'); 
+    background-image: url('../memo-images/midnight-lady-ghost.jpg'); 
   }
   
   .image-13{
     background-image: url('/img-1/midnight-lady-2.png');  /* poludnica */ 
-    background-image: url('./memo-images/midnight-lady-2.png'); 
+    background-image: url('../memo-images/midnight-lady-2.png'); 
   }
   
   .image-14{
     background-image: url('img-1/evilmarmed11.png');
-    background-image: url('./memo-images/evilmarmed11.png'); 
+    background-image: url('../memo-images/evilmarmed11.png'); 
   }
   
   .image-15{
     background-image: url('/img-1/czart2.png');
-    background-image: url('./memo-images/czart2.png'); 
+    background-image: url('../memo-images/czart2.png'); 
   }
   
   .image-16{
     background-image: url('/img-1/wod.png');
-    background-image: url('./memo-images/wod.png'); 
+    background-image: url('../memo-images/wod.png'); 
   }
   .image-17{
     
     background-image: url('/img-1/272337_Alkonost.jpg'); /* alkonostaalkonost, alkonostaa, alkonostaaa */
-    background-image: url('./memo-images/alkonostaaa.jpg'); 
+    background-image: url('../memo-images/alkonostaaa.jpg'); 
   }
   
   .image-18{
     background-image: url('/img-1/wolf12.png');
-    background-image: url('./memo-images/wolf12.png'); 
+    background-image: url('../memo-images/wolf12.png'); 
   }
   
   .image-19{
     background-image: url('/img-3/zmij17.jpg'); /* żmij */
-    background-image: url('./memo-images/zmij6.jpg'); 
+    background-image: url('../memo-images/zmij6.jpg'); 
   }
   
   .image-20{
     background-image: url('/img-1/latawiec7.jpg');
-    background-image: url('./memo-images/latawiec107.jpg'); 
+    background-image: url('../memo-images/latawiec107.jpg'); 
   }
   
   .image-21{
     background-image: url('/img-2/witch.png');  /* nocnica.png, baba jaga */ 
-    background-image: url('./memo-images/witch.png'); 
+    background-image: url('../memo-images/witch.png'); 
   }
   
   .image-22{
     background-image: url('/img-2/witch3.png'); /* borowa ciotka */
-    background-image: url('./memo-images/witch3.png'); 
+    background-image: url('../memo-images/witch3.png'); 
   }
   
   .image-23{
     background-image: url('/img-2/witch4.png'); /* baba jaga */
-    background-image: url('./memo-images/witch4.png'); 
+    background-image: url('../memo-images/witch4.png'); 
   }
   
   .image-24{
     background-image: url('/img-2/nosferatu2.jpg'); /* vampire8.png,  wampir */
-    background-image: url('./memo-images/nosferatu2.jpg'); 
+    background-image: url('../memo-images/nosferatu2.jpg'); 
   }
   
   .image-25{
     background-image: url('/img-2/dragon9.jpg'); /* aZdacha */
-    background-image: url('./memo-images/dragon9.jpg'); 
+    background-image: url('../memo-images/dragon9.jpg'); 
   }
   
   .image-26{
     background-image: url('/img-1/sirin3.jpg');
-    background-image: url('./memo-images/sirin3.jpg'); 
+    background-image: url('../memo-images/sirin3.jpg'); 
   } 
   
   .image-27{
@@ -85,68 +85,68 @@
   
   .image-28{
     background-image: url('/img-2/nocnica.png'); /*mamuna */
-    background-image: url('./memo-images/nocnica.png'); 
+    background-image: url('../memo-images/nocnica.png'); 
   }
   
   /* '/2-starcie/img-2/zmij6.jpg' */
   
   .image-29{
     background-image: url('/img-2/ogniki.png'); /* grzenia */
-    background-image: url('./memo-images/ogniki.png'); 
+    background-image: url('../memo-images/ogniki.png'); 
   }
   
   .image-30{
     background-image: url('/2-starcie/img-2/strzyga1.jpg'); /* nocnica  */ /* strzyga */
-    background-image: url('./memo-images/strzyga1.jpg'); 
+    background-image: url('../memo-images/strzyga1.jpg'); 
   }
   
   .image-31{
     background-image: url('/img-3/wila.png'); /* wiła */
-    background-image: url('./memo-images/wila.png'); 
+    background-image: url('../memo-images/wila.png'); 
   }
   
   .image-32{
     background-image: url('/img-2/chala2.png'); /*chała1.png chała */
-    background-image: url('./memo-images/chala2.png'); 
+    background-image: url('../memo-images/chala2.png'); 
   }
   
   .image-33{
     background-image: url('/img-3/brzeginia.png'); /* brzeginia */
-    background-image: url('./memo-images/brzeginia.png'); 
+    background-image: url('../memo-images/brzeginia.png'); 
   }
   
   .image-34{
     background-image: url('img-3/ognik1.jpg'); /* ognik*/
-    background-image: url('./memo-images/ognik1.jpg'); 
+    background-image: url('../memo-images/ognik1.jpg'); 
   }
   
   .image-35{
     background-image: url('/img-3/wiszczy1.jpg'); /* wieszczy 3, 5*/
-    background-image: url('./memo-images/wieszczy3.jpg'); 
+    background-image: url('../memo-images/wieszczy3.jpg'); 
   }
   
   .image-36{
     background-image: url('img-2/dziwozona1.png'); /* licho  wicth 1, 2, 5*/
-    background-image: url('./memo-images/dziwozona1.png'); 
+    background-image: url('../memo-images/dziwozona1.png'); 
   }
   
   .image-37{
     background-image: url('/img-3/plawetnik11.png'); /*  płanetnik */
-    background-image: url('./memo-images/plawetnik11.png'); 
+    background-image: url('../memo-images/plawetnik11.png'); 
   }
   
   .image-38{
     background-image: url('/img-3/falcon14.png'); /* firedragon6 , falcon5, falcon6, falcon7, falcon8, falcon9,    raróg */
-    background-image: url('./memo-images/firedragon2.jpg'); 
+    background-image: url('../memo-images/firedragon2.jpg'); 
   }
   
   .image-39{
     background-image: url('/img-3/wieszczy.png'); /* rokitnik*/
-    background-image: url('./memo-images/wieszczy3.jpg'); 
+    background-image: url('../memo-images/wieszczy3.jpg'); 
   }
   
   .image-40{
     background-image: url('/img-3/girl.jpeg'); /* boginka*/
-    background-image: url('./memo-images/girl.jpeg'); 
+    background-image: url('../memo-images/girl.jpeg'); 
   }
   
