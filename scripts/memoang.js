@@ -377,8 +377,10 @@ function setCarts(){
 }
 
 cartSettings.addEventListener('click', ()=> {
+  showCarts();
   //cartContainer.className = 'cart-group-container-memory';
   setCarts();
+  hideCarts();
   cartSettings.className = 'invisible';
   checkPoints.className = 'sum-btn';
   restartGame.className = 'restart';
@@ -639,6 +641,54 @@ restartGame.addEventListener('click', ()=> {
   checkPoints.className = 'invisible';
   restartGame.className = 'invisible';
 })
+
+function showCarts(){
+  document.getElementById('cart-1').disabled = true;
+  document.getElementById('cart-2').disabled = true;
+  document.getElementById('cart-3').disabled = true;
+  document.getElementById('cart-4').disabled = true;
+  document.getElementById('cart-5').disabled = true;
+  document.getElementById('cart-6').disabled = true;
+  document.getElementById('cart-7').disabled = true;
+  document.getElementById('cart-8').disabled = true;
+  document.getElementById('cart-9').disabled = true;
+  document.getElementById('cart-10').disabled = true;
+  document.getElementById('cart-11').disabled = true;
+  document.getElementById('cart-12').disabled = true;
+  document.getElementById('cart-13').disabled = true;
+  document.getElementById('cart-14').disabled = true;
+  
+  document.querySelectorAll('.js-plachta')
+  .forEach((item)=>{
+    item.className = 'plachta-off js-plachta'
+  })
+}
+
+
+function hideCarts(){
+  setTimeout(()=>{
+    document.querySelectorAll('.js-plachta')
+      .forEach((plachta)=>{
+        plachta.className = 'plachta js-plachta';
+      })
+
+      document.getElementById('cart-1').disabled = false;
+      document.getElementById('cart-2').disabled = false;
+      document.getElementById('cart-3').disabled = false;
+      document.getElementById('cart-4').disabled = false;
+      document.getElementById('cart-5').disabled = false;
+      document.getElementById('cart-6').disabled = false;
+      document.getElementById('cart-7').disabled = false;
+      document.getElementById('cart-8').disabled = false;
+      document.getElementById('cart-9').disabled = false;
+      document.getElementById('cart-10').disabled = false;
+      document.getElementById('cart-11').disabled = false;
+      document.getElementById('cart-12').disabled = false;
+      document.getElementById('cart-13').disabled = false;
+      document.getElementById('cart-14').disabled = false;
+  }, 5000);
+
+}
 
 
 
