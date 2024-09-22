@@ -1,6 +1,6 @@
 .memo{
-  background-image: url('/background/14.jpg');/* 3,8, 14  */
-  background-image: url('/background/14.jpg');/* 3,8, 14  */
+  background-image: url('../background/14.jpg');/* 3,8, 14  */
+  background-image: url('../background/14.jpg');/* 3,8, 14  */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -80,7 +80,7 @@ z-index: 100;
 margin: .7em 0;
 border-radius: 20px;
 background-color: black;
-background-image: url('/img/ghost11.png');
+background-image: url('../img/ghost11.png');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -111,7 +111,7 @@ z-index: 0;
 
 .cart-setting:hover{
   text-shadow: 1px 1px 2px #fff, 0 0 25px #fff, 0 0 5px #fff;
-  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  cursor: url("../img/cursor-img/smaller_ward.png"), auto;
 }
 
 .memo-cart{
@@ -140,7 +140,7 @@ z-index: 0;
 }
 
 .memo-cart:hover{
-  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  cursor: url("../img/cursor-img/smaller_ward.png"), auto;
   .plachta{
     display: none;
   }
@@ -168,8 +168,8 @@ z-index: 0;
 }
 
 .image-15-a{
-  background-image: url('./img/polnocnica1.jpg');
-  background-image: url('/img-1/midnight-lady-ghost.jpg');
+  background-image: url('../img/polnocnica1.jpg');
+  background-image: url('../img-1/midnight-lady-ghost.jpg');
 }
 
 .displayed-none{
@@ -207,7 +207,7 @@ z-index: 0;
 }
 
 .newSet:hover{
-  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  cursor: url("../img/cursor-img/smaller_ward.png"), auto;
 }
 
 .memo-answer{
@@ -229,14 +229,13 @@ z-index: 0;
 
 @media(max-width: 600px){
   .memo{
-    background-image:url('/23.jpg');
+    background-image:url('../23.jpg');
   }
 
   .game-title-memo{
     font-size: 1.5em;
     box-sizing: border-box;
     padding: .5em;
-
   }
 
   .cart-group-container-memory,
@@ -248,7 +247,6 @@ z-index: 0;
     align-items: center;
   }
   
-
   .grid{
     width: 100%;
     box-sizing: border-box;
@@ -285,7 +283,6 @@ z-index: 0;
     box-sizing: border-box;
   }
 
-  
   .plachta{
     width: 100%;
     height: 290px;
