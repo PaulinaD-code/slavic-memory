@@ -1,6 +1,6 @@
 .memo{
-  background-image: url('/background/14.jpg');/* 3,8, 14  */
-  background-image: url('/background/14.jpg');/* 3,8, 14  */
+  background-image: url('../background/14.jpg');/* 3,8, 14  */
+  background-image: url('../background/14.jpg');/* 3,8, 14  */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,7 +86,7 @@ transition: .5s ease-in-out;
 
 .cart-setting:hover{
   text-shadow: 1px 1px 2px #fff, 0 0 25px #fff, 0 0 5px #fff;
-  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  cursor: url("../img/cursor-img/smaller_ward.png"), auto;
 }
 
 .memo-cart{
@@ -112,7 +112,7 @@ transition: .5s ease-in-out;
 }
 
 .memo-cart:hover{
-  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  cursor: url("../img/cursor-img/smaller_ward.png"), auto;
   .plachta{
     display: none;
   }
@@ -140,7 +140,7 @@ transition: .5s ease-in-out;
 
 .image-15-a{
   background-image: url('./img/polnocnica1.jpg');
-  background-image: url('/img-1/midnight-lady-ghost.jpg');
+  background-image: url('../img-1/midnight-lady-ghost.jpg');
 }
 
 .displayed-none{
@@ -178,7 +178,7 @@ transition: .5s ease-in-out;
 }
 
 .newSet:hover{
-  cursor: url("/img/cursor-img/smaller_ward.png"), auto;
+  cursor: url("../img/cursor-img/smaller_ward.png"), auto;
 }
 
 .memo-answer{
