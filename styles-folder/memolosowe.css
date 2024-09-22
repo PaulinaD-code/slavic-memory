@@ -277,4 +277,8 @@ transition: .5s ease-in-out;
     margin: 1em 1.2em;
     box-sizing: border-box;
   }
+
+   .plachta{
+    top:-106%;
+    }
 }
