@@ -351,7 +351,7 @@ function setCarts(){
     if (jest) {i--;} else {monster[i]=los;}
   }
 
-  console.log(monster);
+  //console.log(monster);
 
   creatureSet(monster[0], title1, image1);
   creatureSet(monster[0], title12, image12);
@@ -399,25 +399,25 @@ function checkCart(creature, el1, cart1, cart2){
 
     cart1.className = 'displayed-none';
     cart2.className = 'displayed-none';
-  } else if (el1.className === 'plachta'){
+  } else if (el1.className === 'plachta js-plachta'){
     console.log('Brak dopasowania');
     loses++;
     point--;
 
-    plachta1.className = 'plachta';
-    plachta2.className = 'plachta';
-    plachta3.className = 'plachta';
-    plachta4.className = 'plachta';
-    plachta5.className = 'plachta';
-    plachta6.className = 'plachta';
-    plachta7.className = 'plachta';
-    plachta8.className = 'plachta';
-    plachta9.className = 'plachta';
-    plachta10.className = 'plachta'; 
-    plachta11.className = 'plachta';
-    plachta12.className = 'plachta';
-    plachta13.className = 'plachta';
-    plachta14.className = 'plachta'; 
+    plachta1.className = 'plachta js-plachta';
+    plachta2.className = 'plachta js-plachta';
+    plachta3.className = 'plachta js-plachta';
+    plachta4.className = 'plachta js-plachta';
+    plachta5.className = 'plachta js-plachta';
+    plachta6.className = 'plachta js-plachta';
+    plachta7.className = 'plachta js-plachta';
+    plachta8.className = 'plachta js-plachta';
+    plachta9.className = 'plachta js-plachta';
+    plachta10.className = 'plachta js-plachta'; 
+    plachta11.className = 'plachta js-plachta';
+    plachta12.className = 'plachta js-plachta';
+    plachta13.className = 'plachta js-plachta';
+    plachta14.className = 'plachta js-plachta'; 
 
     creature.className = 'displayed-none';
   }
@@ -661,7 +661,7 @@ function showCarts(){
   
   document.querySelectorAll('.js-plachta')
   .forEach((item)=>{
-    item.className = 'plachta-off js-plachta'
+    item.className = 'plachta.active js-plachta'
   })
 }
 
@@ -690,5 +690,4 @@ function hideCarts(){
   }, 5000);
 
 }
-
 
