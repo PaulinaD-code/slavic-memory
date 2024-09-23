@@ -586,7 +586,7 @@ checkPoints.addEventListener('click', ()=>{
 
 function clearUp(cart, plachta, grid, title, img ){
   cart.className = 'memo-cart';
-  plachta.className = 'plachta';
+  plachta.className = 'plachta js-plachta';
   grid.className = 'grid';
   title.textContent = '';
   img.className = "memo-img";
